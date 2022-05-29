@@ -16,8 +16,7 @@ fluidDatabase['fluid.radon'] = 'gt.metaitem.01.30093.name'
 fluidDatabase['fluid.molten.silicone'] = 'gt.metaitem.99.471.name'
 fluidDatabase['fluid.biohmediumsterilized'] = 'gt.metaitem.01.30604.name'
 fluidDatabase['fluid.molten.quantium'] = 'gt.metaitem.99.391.name'
-fluidDatabase['gt.metaitem.01.30001.name'] = 'Hydrogen Gas'
-fluidDatabase['gt.metaitem.99.84.name'] = 'fluid.molten.iridium'
+fluidDatabase['fluid.molten.iridium'] = 'gt.metaitem.99.84.name'
 
 for k,v in pairs(fluidDatabase)do
 	fluidDatabaseMetaTable[v] = k
